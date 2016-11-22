@@ -2,3 +2,10 @@
 .npmrc
 sass-lint.yml
 pom.xml
+node
+target
+*.log
+README.md
+CHANGELOG.md
+Jenkinsfile
+.sass-lint.yml
