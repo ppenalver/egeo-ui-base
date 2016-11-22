@@ -15,6 +15,7 @@
    },
    "devDependencies": {
       "node-sass": "3.13.0",
-      "sass-lint": "1.10.2"
+      "sass-lint": "1.10.2",
+      "json": "9.0.4"
    }
 }
