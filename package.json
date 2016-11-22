@@ -1,0 +1,20 @@
+{
+   "name": "ui-base",
+   "version": "",
+   "license": "Apache-2.0",
+   "description": "UI-Base project with utilites",
+   "scripts": {
+      "test": "node-sass --include-path scss index.scss main.css && rm -drf main.css",
+      "replace": "json -I -f package.json -e",
+      "sass-lint": "sass-lint -c .sass-lint.yml ./**/*.scss -v -q -i vendors/_sanitize.scss"
+   },
+   "author": "Stratio",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Stratio/ui-base"
+   },
+   "devDependencies": {
+      "node-sass": "3.13.0",
+      "sass-lint": "1.10.2"
+   }
+}
