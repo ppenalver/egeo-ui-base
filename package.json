@@ -1,21 +1,23 @@
 {
-   "name": "ui-base",
-   "version": "",
-   "license": "Apache-2.0",
-   "description": "UI-Base project with utilites",
-   "scripts": {
-      "test": "node-sass --include-path scss index.scss main.css && rm -drf main.css",
-      "replace": "json -I -f package.json -e",
-      "sass-lint": "sass-lint -c .sass-lint.yml ./settings/*.scss ./utils/*.scss -v -q"
-   },
-   "author": "Stratio",
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/Stratio/ui-base"
-   },
-   "devDependencies": {
-      "node-sass": "3.13.0",
-      "sass-lint": "1.10.2",
-      "json": "9.0.4"
-   }
+  "name": "ui-base",
+  "version": "",
+  "license": "Apache-2.0",
+  "description": "UI-Base project with utilites",
+  "scripts": {
+    "test": "node-sass --include-path scss index.scss main.css && postcss --use autoprefixer *.css -d . && rm -drf main.css",
+    "replace": "json -I -f package.json -e",
+    "sass-lint": "sass-lint -c .sass-lint.yml ./settings/*.scss ./utils/*.scss -v -q"
+  },
+  "author": "Stratio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stratio/ui-base"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.6.1",
+    "json": "9.0.4",
+    "node-sass": "3.13.0",
+    "postcss-cli": "2.6.0",
+    "sass-lint": "1.10.2"
+  }
 }
