@@ -1,6 +1,25 @@
 $egeo-grid: true !default;
 
-$egeo-grid---min-viewport: 30 !default;
+$egeo-grid---cols: 24 !default;
+
+$egeo-grid---outer-margin: 0 !default;
+$egeo-grid---gutter-width: .9rem !default;
+$egeo-grid---half-gutter-width: $egeo-grid---gutter-width * 1;
+
 $egeo-grid---sm-viewport: 48 !default;
 $egeo-grid---md-viewport: 64 !default;
 $egeo-grid---lg-viewport: 90 !default;
+
+$egeo-grid-config: (
+   mq: ('xs', 'sm', 'md', 'lg'),
+   viewports: (
+      'sm': 'only screen and (min-width: #{$egeo-grid---sm-viewport}em)',
+      'md': 'only screen and (min-width: #{$egeo-grid---md-viewport}em)',
+      'lg': 'only screen and (min-width: #{$egeo-grid---lg-viewport}em)'
+   ),
+   containers: (
+      'sm': $egeo-grid---sm-viewport + $egeo-grid---gutter-width,
+      'md': $egeo-grid---md-viewport + $egeo-grid---gutter-width,
+      'lg': $egeo-grid---lg-viewport + $egeo-grid---gutter-width
+   )
+);
