@@ -2,7 +2,7 @@
 
 ## 1.0.0 (upcoming)
 
-* Pending changelog
+* Rename dist package
 
 ## 0.3.0 (February 01, 2017)
 
