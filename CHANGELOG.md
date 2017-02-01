@@ -2,7 +2,7 @@
 
 ## 0.3.0 (upcoming)
 
-* Pending changelog
+* Add Stratio Grid
 
 ## 0.2.0 (January 09, 2017)
 
