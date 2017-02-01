@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 (upcoming)
+
+* Pending changelog
+
 ## 0.3.0 (upcoming)
 
 * Add Stratio Grid
