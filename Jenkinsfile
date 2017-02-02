@@ -6,11 +6,11 @@ hose {
     DEVTIMEOUT = 30
     RELEASETIMEOUT = 30
     REPOSITORY = 'egeo-ui-base'
-        
+
     DEV = { config ->
-    
-        doCompile(config)
+
         doUT(config)
         doDeploy(config)
+        doPackage(config)
     }
 }

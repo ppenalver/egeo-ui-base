@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0 (upcoming)
+## 0.4.0 (upcoming)
 
-* Rename dist package
+* Rename distribution package from ui-base to egeo-ui-base
 
 ## 0.3.0 (February 01, 2017)
 
