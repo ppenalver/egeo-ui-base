@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 0.4.0 (upcoming)
+## 0.4.0 (February 02, 2017)
 
 * Rename distribution package from ui-base to egeo-ui-base
 
