@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 (upcoming)
+
+* Pending changelog
+
 ## 0.4.0 (upcoming)
 
 * Rename distribution package from ui-base to egeo-ui-base
