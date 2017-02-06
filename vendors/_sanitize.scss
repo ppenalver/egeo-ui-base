@@ -1,11 +1,11 @@
 //
 // Sanitize
 //
-// The [Sanitize](github.com/jonathantneal/sanitize.css) library was created by 
-// [Jonathan Neal](https://twitter.com/jon_neal), co-creator of 
-// [Normalize.css](https://necolas.github.io/normalize.css/), and it is 
-// a revision and update over [Normalize.css](https://necolas.github.io/normalize.css/) 
-// focused in the last versions of browsers, including mobile, and even new ones 
+// The [Sanitize](github.com/jonathantneal/sanitize.css) library was created by
+// [Jonathan Neal](https://twitter.com/jon_neal), co-creator of
+// [Normalize.css](https://necolas.github.io/normalize.css/), and it is
+// a revision and update over [Normalize.css](https://necolas.github.io/normalize.css/)
+// focused in the last versions of browsers, including mobile, and even new ones
 // like [Microsoft Edge](https://www.microsoft.com/es-es/windows/microsoft-edge) and much more.
 //
 // By Default, Sanitize is active and will be included in the final CSS generated.
@@ -18,17 +18,17 @@
 //
 // ## Compatibility
 //
-// Compatible in Android 4.3-4.4+, Chrome 39-45+, Edge 12+, Firefox 34-40+, Internet 
+// Compatible in Android 4.3-4.4+, Chrome 39-45+, Edge 12+, Firefox 34-40+, Internet
 // Explorer 9-11, iOS 7-8+, Safari 7-9+, Windows Phone 8.1+
 //
-// <div class="compatibility">CC0 1.0 Public Domain | 
+// <div class="compatibility">CC0 1.0 Public Domain |
 // [github.com/jonathantneal/sanitize.css](github.com/jonathantneal/sanitize.css)</div>
 //
 // Styleguide 4.4
 
 //! sanitize.css v2.0.0 | CC0 1.0 Public Domain | github.com/jonathantneal/sanitize.css
 
-$egeo-sanitize: true !default;
+$egeo-sanitize: false !default;
 
 @if $egeo-sanitize {
 	$root-box-sizing: border-box !default;
