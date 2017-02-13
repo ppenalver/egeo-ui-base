@@ -2,7 +2,10 @@
 
 ## 1.0.0 (upcoming)
 
-* Pending changelog
+* Remove font names as identifiers of font families
+* Move extends.scss from settings to utils
+* Change default values of grid and sanitize to avoid be written by default
+* Update color definitions
 
 ## 0.4.0 (February 02, 2017)
 
