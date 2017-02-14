@@ -269,7 +269,8 @@
 @import '../settings/log';
 @import '../settings/typography';
 
-// @import './utils/log';
+@import './utils/log';
+@import './utils/maps';
 
 @mixin egeo-set-font-families() {
    @include egeo-bem-modifiers-from-map($egeo-font-families, font-family);
@@ -287,18 +288,66 @@
    @include egeo-bem-modifiers-from-map($egeo-line-heights, line-height);
 }
 
-@function egeo-get-font($font-family: body) {
-   @return map-get($egeo-font-families, $font-family);
+@function egeo-get-font($family: body) {
+   $value: -1;
+
+   @if map-has-key($egeo-font-families , $family) {
+      $value: map-get($egeo-font-families, $family);
+   } @else {
+      @if function-exists(egeo-log) {
+         @if egeo-log('@egeo-get-font::The font #{$family} not exist in $egeo-font-families.', $egeo-log-error) {
+            $value: -1;
+         }
+      }
+   }
+
+   @return $value;
 }
 
 @function egeo-get-font-weight($weight: normal) {
-   @return map-get($egeo-font-weights, $weight);
+   $value: -1;
+
+   @if map-has-key($egeo-font-weights, $weight) {
+      $value: map-get($egeo-font-weights, $weight);
+   } @else {
+      @if function-exists(egeo-log) {
+         @if egeo-log('@egeo-get-font-weight::The font #{$weight} not exist in $egeo-font-weights.', $egeo-log-error) {
+            $value: -1;
+         }
+      }
+   }
+
+   @return $value;
 }
 
 @function egeo-get-font-size($size: medium) {
-   @return map-get($egeo-font-sizes, $size);
+   $value: -1;
+
+   @if map-has-key($egeo-font-sizes, $size) {
+      $value: map-get($egeo-font-sizes, $size);
+   } @else {
+      @if function-exists(egeo-log) {
+         @if egeo-log('@egeo-get-font-size::The font #{$size} not exist in $egeo-font-sizes.', $egeo-log-error) {
+            $value: -1;
+         }
+      }
+   }
+
+   @return $value;
 }
 
 @function egeo-get-line-height($height: normal) {
-   @return map-get($egeo-line-heights, $height);
+   $value: -1;
+
+   @if map-has-key($egeo-line-heights, $height) {
+      $value: map-get($egeo-line-heights, $height);
+   } @else {
+      @if function-exists(egeo-log) {
+         @if egeo-log('@egeo-get-line-height::The font #{$height} not exist in $egeo-line-heights.', $egeo-log-error) {
+            $value: -1;
+         }
+      }
+   }
+
+   @return $value;
 }
