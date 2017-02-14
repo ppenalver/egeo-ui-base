@@ -269,8 +269,8 @@
 @import '../settings/log';
 @import '../settings/typography';
 
-@import './utils/log';
-@import './utils/maps';
+@import 'log';
+@import 'maps';
 
 @mixin egeo-set-font-families() {
    @include egeo-bem-modifiers-from-map($egeo-font-families, font-family);
