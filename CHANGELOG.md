@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 1.0.0 (upcoming)
+## 1.0.0 (February 15, 2017)
 
 * Remove font names as identifiers of font families
 * Move extends.scss from settings to utils
