@@ -145,6 +145,14 @@
    }
 }
 
+@function egeo-get-vmin() {
+   @return $egeo-grid---min;
+}
+
+@function egeo-get-vmax() {
+   @return $egeo-grid---max;
+}
+
 @if $egeo-grid {
    @include egeo-grid();
 }
