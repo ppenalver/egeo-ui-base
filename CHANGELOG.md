@@ -2,8 +2,9 @@
 
 ## 1.1.0 (upcoming)
 
-* Add the egeo-get-vmin function in the grid utils to get the minimum with of the viewport each Stratio application should support.
-* Add the egeo-get-vmax function in the grid utils to get the maximum with of the viewport each Stratio application should support.
+* Add the egeo-get-vmin function in the grid utils to get the minimum with of the viewport each Stratio application should support 
+* Add the egeo-get-vmax function in the grid utils to get the maximum with of the viewport each Stratio application should support
+* Update Egeo Colors
 
 ## 1.0.0 (February 15, 2017)
 
