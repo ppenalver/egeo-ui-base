@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 1.1.0 (upcoming)
+## 1.1.0 (March 03, 2017)
 
 * Add the egeo-get-vmin function in the grid utils to get the minimum with of the viewport each Stratio application should support 
 * Add the egeo-get-vmax function in the grid utils to get the maximum with of the viewport each Stratio application should support
