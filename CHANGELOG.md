@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 1.2.0 (upcoming)
+## 1.2.0 (March 16, 2017)
 
 * Prepare for public release
 * Change package name for scope
