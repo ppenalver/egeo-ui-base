@@ -3,6 +3,7 @@
 ## 1.2.0 (upcoming)
 
 * Prepare for public release
+* Change package name for scope
 
 ## 1.1.1 (March 09, 2017)
 
