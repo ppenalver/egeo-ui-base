@@ -2,7 +2,7 @@
 
 ## 1.2.0 (upcoming)
 
-* Pending changelog
+* Prepare for public release
 
 ## 1.1.1 (March 09, 2017)
 

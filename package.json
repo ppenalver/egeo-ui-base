@@ -1,27 +1,30 @@
 {
-  "name": "egeo-ui-base",
-  "version": "",
-  "license": "Apache-2.0",
-  "description": "UI-Base project with utilites",
-  "scripts": {
-    "clean:dist": "rimraf main.css",
-    "test": "npm run test:sass && npm run test:postcss && npm run clean:dist",
-    "test:sass": "node-sass --include-path scss index.scss main.css",
-    "test:postcss": "postcss --use autoprefixer *.css -d .",
-    "replace": "json -I -f package.json -e",
-    "sass-lint": "sass-lint -c .sass-lint.yml ./settings/*.scss ./utils/*.scss -v -q"
-  },
-  "author": "Stratio",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Stratio/ui-base"
-  },
-  "devDependencies": {
-    "autoprefixer": "6.7.2",
-    "json": "9.0.4",
-    "node-sass": "4.5.0",
-    "postcss-cli": "2.6.0",
-    "rimraf": "2.5.4",
-    "sass-lint": "1.10.2"
-  }
+   "name": "egeo-ui-base",
+   "version": "1.2.0",
+   "license": "Apache-2.0",
+   "description": "UI-Base project with utilites",
+   "scripts": {
+      "clean:dist": "rimraf main.css",
+      "test": "npm run test:sass && npm run test:postcss && npm run clean:dist",
+      "test:sass": "node-sass --include-path scss index.scss main.css",
+      "test:postcss": "postcss --use autoprefixer *.css -d .",
+      "replace": "json -I -f package.json -e",
+      "sass-lint": "sass-lint -c .sass-lint.yml ./settings/*.scss ./utils/*.scss -v -q"
+   },
+   "author": "Stratio",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Stratio/egeo-ui-base"
+   },
+   "devDependencies": {
+      "autoprefixer": "6.7.2",
+      "json": "9.0.4",
+      "node-sass": "4.5.0",
+      "postcss-cli": "2.6.0",
+      "rimraf": "2.5.4",
+      "sass-lint": "1.10.2"
+   },
+   "keywords": [
+      "sass"
+   ]
 }

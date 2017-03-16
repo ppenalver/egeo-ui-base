@@ -8,7 +8,6 @@ hose {
     REPOSITORY = 'egeo-ui-base'
 
     DEV = { config ->
-
         doUT(config)
         doDeploy(config)
         doPackage(config)
