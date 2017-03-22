@@ -39,15 +39,21 @@ This repo includes the services and utilities built in Sass. These utilities cou
 
 Egeo is designed using the ITCSS model from Harry Roberts. It implies the use of some restrictions and conventions to ensure isolation, scalability and the use of software development patterns.
 
-![Specificity Graph](http://csswizardry.com/wp-content/uploads/2014/10/specificity-graph-01.png)
+<div>
+<img src="http://csswizardry.com/wp-content/uploads/2014/10/specificity-graph-01.png" width="400">
+</div>
 
 The Inverted Triangle model works under the idea of progressive specificity rise. Take a look at the most common specificity graph we can found in a web project:
 
-![Specificity Graph 2](http://csswizardry.com/wp-content/uploads/2014/10/specificity-graph-02.png)
+<div>
+<img src="http://csswizardry.com/wp-content/uploads/2014/10/specificity-graph-02.png" width="400">
+</div>
 
 Instead, using the ITCSS architecture and respecting its principles, we can reach the ideal graph you can see below:
 
-![ITCSS key metrics](https://www.xfivecdn.com/xfive/wp-content/uploads/2016/02/10154630/itcss-key-metrics.svg)
+<div>
+<img src="https://www.xfivecdn.com/xfive/wp-content/uploads/2016/02/10154630/itcss-key-metrics.svg" width="400">
+</div>
 
 This is the way how ITCSS organize its libraries, classes, and files (sure you already know why it is called Inverted Triangle CSS).
 
