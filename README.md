@@ -22,8 +22,8 @@ In this repository, you'll find services and utilities to build an UI in a consi
 * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
    * [Dependencies](#dependencies)
-   * [Installing](#work-with-the-code)
-   * [Work with the code](#installing)
+   * [Installing](#installing)
+   * [Work with the code](#work-with-the-code)
    * [How to test](#how-to-test)
    * [How to lint](#how-to-lint)
 * [Contributing](#contributing)
@@ -115,7 +115,7 @@ What you need to run this app:
 You can install egeo-ui-base from npm:
 
 ```
-npm install egeo-ui-base
+npm i @stratio/egeo-ui-base
 ```
 
 ### Work with the code
