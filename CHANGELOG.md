@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 1.3.0 (upcoming)
+## 1.3.0 (April 03, 2017)
 
 * Remove vertical scrollbars always visible in the Sanitize configuration
 
