@@ -8,8 +8,13 @@
 // focused in the last versions of browsers, including mobile, and even new ones
 // like [Microsoft Edge](https://www.microsoft.com/es-es/windows/microsoft-edge) and much more.
 //
-// By Default, Sanitize is active and will be included in the final CSS generated.
-// However, we can avoid the use of Sanitize putting to `false` the variable `$egeo-sanitize`.
+// By Default, Sanitize is inactive and will not be included in the final CSS generated.
+//
+// We can active the use of Sanitize putting to `true` the variable `$egeo-sanitize` before the
+// import of the library.
+//
+// This is a modified version over the v2.0.0 so keep in mind that could be differences with the 
+// original one.
 //
 // | Variable                                                   | Default value                                     | Description                                                        |
 // | ---------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
@@ -62,7 +67,6 @@ $egeo-sanitize: false !default;
 
 	:root {
 		-ms-overflow-style: -ms-autohiding-scrollbar; // Edge 12+, Internet Explorer 11-
-		overflow-y: scroll; // All browsers without overlaying scrollbars
 		-webkit-text-size-adjust: 100%; // iOS 8+
 	}
 
