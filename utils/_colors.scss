@@ -108,10 +108,6 @@
 @function egeo-get-rgb-color($color) {
    $result: #000;
 
-   @if egeo-log('@egeo-get-rgb-color::Get color #{$color} from RGB.') {
-      $result: #000;
-   }
-
    @if global-variable-exists(egeo-rgb-colors) {
       @if type-of($egeo-rgb-colors) == 'map' {
          @if map-has-key($egeo-rgb-colors, $color) {
