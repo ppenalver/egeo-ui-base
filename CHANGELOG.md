@@ -2,7 +2,7 @@
 
 ## 1.4.0 (upcoming)
 
-* Pending changelog
+* update color definitions
 
 ## 1.3.0 (April 03, 2017)
 
