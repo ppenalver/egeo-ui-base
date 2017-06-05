@@ -1,6 +1,6 @@
 {
   "name": "@stratio/egeo-ui-base",
-  "version": "1.4.0-RC1",
+  "version": "1.4.0",
   "license": "Apache-2.0",
   "description": "UI-Base project with utilites",
   "scripts": {
