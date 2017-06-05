@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (upcoming)
+
+* Pending changelog
+
 ## 1.4.0 (upcoming)
 
 * update color definitions
