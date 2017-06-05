@@ -4,7 +4,7 @@
 
 * Pending changelog
 
-## 1.4.0 (upcoming)
+## 1.4.0 (June 05, 2017)
 
 * update color definitions
 
