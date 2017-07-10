@@ -6,6 +6,7 @@ hose {
     DEVTIMEOUT = 30
     RELEASETIMEOUT = 30
     REPOSITORY = 'egeo-ui-base'
+    FOSS = true
 
     DEV = { config ->
         doUT(config)
