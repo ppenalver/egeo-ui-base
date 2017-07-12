@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 (upcoming)
+
+* Fix body_small rem value from 0.84 to 0.88
+
 ## 1.4.0 (June 05, 2017)
 
 * update color definitions
