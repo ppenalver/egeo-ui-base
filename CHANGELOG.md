@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.5.0 (upcoming)
+## 2.0.0 (upcoming)
 
 * Pending changelog
 
