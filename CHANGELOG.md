@@ -2,7 +2,7 @@
 
 ## 2.0.0 (upcoming)
 
-* Pending changelog
+* Update License
 
 ## 1.4.1 (July 12, 2017)
 
